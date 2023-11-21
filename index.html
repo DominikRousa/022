@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="ui.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="mainContainerItems">
+            <div>
+                <div class="mainContainerInputs">
+                    <input id="fNameInput" width="auto" height="auto" placeholder="Jméno" type="text">
+                    <input id="lNameInput" width="auto" height="auto" placeholder="Příjmění" type="text">
+                </div>
+                <div class="mainContainerButtons">
+                    <button onclick="addPeople()" class="myButton1">Přidat člověka</a>
+                    <button onclick="clearList()" class="myButton2">Smazat Seznam</a>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        <div>
+            <div class="mainContainerList">
+                <ul id="itemList" class="list-group">
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
